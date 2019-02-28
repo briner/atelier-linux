@@ -6,3 +6,9 @@ venv/bin/pip install pex flask
 
 # creation du pex (python executable)
 venv/bin/pex . flask -c server.py -o server.pex
+
+# launch the server
+./server.pex
+
+# test the server
+curl localhost:5000
