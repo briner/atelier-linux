@@ -1,0 +1,9 @@
+Ce petit example permet de montrer à quel point un webserver peut être mis en place.
+
+Pour le tester:
+
+python helloworld.py
+
+et tester son fonctionnement:
+
+curl localhost:5000
