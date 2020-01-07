@@ -587,10 +587,10 @@ for liste_de_chiffre in [range(1,10,2), range(9)]:
     if entier == break_if:
       print("numéro {} trouvé !".format(entier))
       print("on", "sort", "de", "la", "boucle", "for", "!", end="")
-      print(" ".join([" Car", "le", "chiffre", str(break_if), "n'est", "pas", "sorti !"]))
+      print(" ".join([" Car", "le", "chiffre", str(break_if), "est", "sorti !"]))
       break
   else:
-    print("on a joué la liste jusqu'à la fin. Car le numéo {last} n'est sorti !".format(last=break_if))
+    print("on a joué la liste jusqu'à la fin. Car le numéo {last} n'est point sorti !".format(last=break_if))
 ```
 
 ### while
